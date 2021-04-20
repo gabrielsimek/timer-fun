@@ -11,7 +11,7 @@ function startTimer(duration, display, callback) {
 
         let seconds = Math.floor(duration % 60);
 
-      //same deal with seconds. but the amount of seconds is whatever is left after we divide into minutes. remainder modulo divides duration by 60 (minutes) and returns the remainder which will be the seconds. 60 / 60 = 0. remainder is 60.
+      //same deal with seconds. but the amount of seconds is whatever is left after we divide into minutes. remainder modulo divides duration by 60 (minutes) and returns the remainder which will be the seconds. 68 / 60 = 1. remainder is 8. So one minute and 8 seconds .
     
         if (minutes < 10){
             minutes = '0' + minutes;
